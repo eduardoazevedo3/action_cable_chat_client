@@ -17,7 +17,7 @@ App.cable = ActionCable.createConsumer(`wss://YOUR-CABLE-DOMAIN-HERE/cable?token
 
 Next, you must configure the connection between that client and your channel on Action Cable
 
-These settings must be made in the file `js/channet.js`
+These settings must be made in the file `js/channel.js`
 
 ```javascript
 App.chatChannel = App.cable.subscriptions.create({ channel: "ChatChannel", chat_id: "YOUR-CHAT-ID" }, {
