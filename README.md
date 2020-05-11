@@ -34,7 +34,7 @@ App.chatChannel = App.cable.subscriptions.create({ channel: "ChatChannel", chat_
 });
 ```
 
-In the channel we used to create this client had the subscribed and speak methods, you must adjust it according to your WebSocket with Action Cable.
+In the channel we used to create this client had the `subscribed` and `speak` methods, you must adjust it according to your WebSocket with Action Cable.
 
 ## Contributing
 
